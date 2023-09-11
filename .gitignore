@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# local data folder
+data/localdata/
+
+# DS Store
+.DS_Store
+
 # C extensions
 *.so
 
