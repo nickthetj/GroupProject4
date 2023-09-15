@@ -38,15 +38,13 @@ Image data does not require the type of cleaning that numerical or language data
 
 As a baseline, we designed a dummy model that always predicted pneumonia. It had a perfect recall score, but an accuracy of XX. Further iterations would attempt to raise the accuracy score with minimal compromise of recall. We wanted the model to work better but without missing true pneumonia cases.
 
-We then began iterating to see what adjustments improved both scores, but especially recall. We experimented with adding convolutional layers, adjusting the learning rate both up and down, adding image augmentation to our training data, regularizing with a dropout layer, and various combinations of these adjustments. Several models scored quite highly on both recall and accuracy. Our final model, with a high accuracy and the highest recall score of all our attempts, was a convolutional neural network with multiple layers and the standard learning rate, along with no image augmentation or dropout regularization. At 64 x 64 image resolution, this model scored 99.4 for recall and 98.0 for accuracy on our validation set. At a higher resolution it scored XX for recall and XX for accuracy.
-
-In addition to having an excellent recall score, this model is also useful because it works well even at low resolution. Higher resolution yields superior results, but this model could be used in a setting with limited computational power.
+We then began iterating to see what adjustments improved both scores, but especially recall. We experimented with adding convolutional layers, adjusting the learning rate both up and down, adding image augmentation to our training data, regularizing with a dropout layer, and various combinations of these adjustments. Several models scored quite highly on both recall and accuracy. Our final model, with a high accuracy and the highest recall score of all our attempts, was a convolutional neural network with multiple layers and the standard learning rate, along with no image augmentation or dropout regularization. At 300 x 300 image resolution, this model scored 99.4 for recall and 95.6 for accuracy on our validation set.
 
 ## Evaluation
 
 We determined our best model based on our validation set. We saw that our model was neither under nor overfit because its scores were similar on both the training and validation data sets.
 
-After selecting our best model, we evaluated it with our holdout testing set. The model scored XX for recall and XX for accuracy.
+After selecting our best model, we evaluated it with our holdout testing set. The model scored  for recall and XX for accuracy.
 
 The lower accuracy score was unexpected. It is not a bad score, but it is not in line with the scores we saw for our training and validation. Were it not for the validation set, we would assume our model is overfit to the training data. The validation data, however, supports our interpretation that our model is well-tuned. It is possible that the images just didn't break into sets in a particularly representative way. Short of procuring our own set of comparable x-rays, there's not much we can do to address this issue.
 
