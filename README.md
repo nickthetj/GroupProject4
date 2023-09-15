@@ -68,6 +68,7 @@ This model only improves one step in the treatment of pneumonia. If there are ba
 The data set images are labelled for bacterial or viral pneumonia. These conditions can require different treatment. Current recommendation is that all unclassified cases of pediatric pneumonia be treated with antibiotics, because x-ray does not meaningfully differentiate between the two types. A possible next step would be to build a model that tries to do this. Perhaps a computer model can find distinctions the naked eye cannot, and if it can, unnecessary antibiotics could be avoided.
 
 ## Repository Structure
+'''
 ├── data
 ├── images
 ├── working_notebooks
@@ -76,3 +77,4 @@ The data set images are labelled for bacterial or viral pneumonia. These conditi
 ├── .gitignore
 ├── LICENSE
 └── presentation.pdf
+'''
