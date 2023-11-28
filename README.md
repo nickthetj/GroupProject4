@@ -52,6 +52,8 @@ Though the lower accuracy score raised an eyebrow, we are still confident that t
 
 Our model misses almost no true pneumonia cases (and even a human expert likely errs occasionally) and it significantly reduces the number of x-rays that have to be analyzed. In an overtaxed healthcare setting, that's all upside.
 
+<img width="363" alt="Screenshot 2023-11-28 at 4 15 15 PM" src="https://github.com/nickthetj/PneumoniaDiagnosis/assets/37059423/c5efd1ce-b1f4-4237-ae65-92735b730fb3">
+
 
 ## Conclusions
 
