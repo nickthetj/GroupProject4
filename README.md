@@ -46,6 +46,8 @@ We determined our best model based on our validation set. We saw that our model 
 
 After selecting our best model, we evaluated it with our holdout testing set. The model scored 0.9949 for recall and 0.8478 for accuracy.
 
+<img width="531" alt="Screenshot 2023-11-28 at 4 19 56 PM" src="https://github.com/nickthetj/PneumoniaDiagnosis/assets/37059423/88f8c0d3-643e-4739-b029-7d4fcbe8969c">
+
 The lower accuracy score was unexpected. It is not a bad score, but it is not in line with the scores we saw for our training and validation. Were it not for the validation set, we would assume our model is overfit to the training data. The validation data, however, supports our interpretation that our model is well-tuned. It is possible that the images just didn't break into sets in a particularly representative way. Short of procuring our own set of comparable x-rays, there's not much we can do to address this issue.
 
 Though the lower accuracy score raised an eyebrow, we are still confident that the model is strong and generalizable. Even as accuracy dropped, it did not drop precipitously and the recall score remained incredibly high. The model might have more false positives, but as long as false negatives are still kept to the absolute minimum, this model is still effectively reducing the workload for healthcare professionals without elevating the risks for patients.
