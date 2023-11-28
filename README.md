@@ -50,9 +50,11 @@ The lower accuracy score was unexpected. It is not a bad score, but it is not in
 
 Though the lower accuracy score raised an eyebrow, we are still confident that the model is strong and generalizable. Even as accuracy dropped, it did not drop precipitously and the recall score remained incredibly high. The model might have more false positives, but as long as false negatives are still kept to the absolute minimum, this model is still effectively reducing the workload for healthcare professionals without elevating the risks for patients.
 
+<img width="363" alt="Screenshot 2023-11-28 at 4 15 15 PM" src="https://github.com/nickthetj/PneumoniaDiagnosis/assets/37059423/c5efd1ce-b1f4-4237-ae65-92735b730fb3">
+
 Our model misses almost no true pneumonia cases (and even a human expert likely errs occasionally) and it significantly reduces the number of x-rays that have to be analyzed. In an overtaxed healthcare setting, that's all upside.
 
-<img width="363" alt="Screenshot 2023-11-28 at 4 15 15 PM" src="https://github.com/nickthetj/PneumoniaDiagnosis/assets/37059423/c5efd1ce-b1f4-4237-ae65-92735b730fb3">
+<img width="412" alt="Screenshot 2023-11-28 at 4 15 20 PM" src="https://github.com/nickthetj/PneumoniaDiagnosis/assets/37059423/40ed5fa6-a9df-4c3d-a572-aca057c4a17a">
 
 
 ## Conclusions
