@@ -38,9 +38,9 @@ Image data does not require the type of cleaning that numerical or language data
 
 ## Modeling
 
-As a baseline, we designed a dummy model that always predicted pneumonia. It had a perfect recall score, but an accuracy of 75%. Further iterations would attempt to raise the accuracy score with minimal compromise of recall. We wanted the model to work better but without missing true pneumonia cases.
+Initially, we implemented a dummy model predicting pneumonia with perfect recall but an accuracy of 75%. Subsequent iterations aimed to improve accuracy without compromising recall on true pneumonia cases.
 
-We then began iterating to see what adjustments improved both scores, but especially recall. We experimented with adding convolutional layers, adjusting the learning rate both up and down, adding image augmentation to our training data, regularizing with a dropout layer, and various combinations of these adjustments. Several models scored quite highly on both recall and accuracy. Our final model, with a high accuracy and the highest recall score of all our attempts, was a convolutional neural network with multiple layers and the standard learning rate, along with no image augmentation or dropout regularization. At 300 x 300 image resolution, this model scored 99.4 for recall and 95.6 for accuracy on our validation set.
+Through various adjustments like adding convolutional layers, tweaking learning rates, incorporating image augmentation, and experimenting with dropout regularization, several models achieved high scores in both recall and accuracy. The final model, a convolutional neural network with multiple layers at a 300 x 300 image resolution, demonstrated exceptional performance with a recall score of 99.4% and an accuracy of 95.6% on the validation set.
 
 ## Evaluation
 
