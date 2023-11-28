@@ -67,11 +67,15 @@ We would recommend that clinics or hospitals that see a lot of juvenile patients
 
 ## Next Steps
 
-Given more time, we would consider pooling the training and testing sets together and doing a random split instead of using the provided train/test sets. Training our model on our own randomly split sets would allow us to see if the disparity in validation and testing accuracy scores that we saw was truly an artifact of a funky data split. As other data scientists have also mentioned issues with the accuracy scores on the testing set, it might also be valuable to have a medical expert review those images to ensure they are properly labelled. We don't have the skills to do that, and it might be time- or cost-prohibitive for our potential clients. Even without these further investigations, we still feel quite confident in the value our model could provide in a medical setting.
+With additional time, we would consider combining the training and testing sets through random splitting instead of relying on the provided sets. This approach aims to address potential disparities in validation and testing accuracy scores observed in our analysis.
 
-This model only improves one step in the treatment of pneumonia. If there are backlogs in ordering a chest x-ray or actually performing the x-ray, then the benefits of our model will be limited. Healthcare providers should evaluate all steps in the diagnosis process to see if other bottlenecks can be mitigated.
+Acknowledging concerns raised by other data scientists regarding accuracy scores on the testing set, involving a medical expert to review image labels could provide valuable insights, though this may be resource-intensive.
 
-The data set images are labelled for bacterial or viral pneumonia. These conditions can require different treatment. Current recommendation is that all unclassified cases of pediatric pneumonia be treated with antibiotics, because x-ray does not meaningfully differentiate between the two types. A possible next step would be to build a model that tries to do this. Perhaps a computer model can find distinctions the naked eye cannot, and if it can, unnecessary antibiotics could be avoided.
+Even without further investigations, we remain confident in the model's potential value in a medical setting.
+
+It's crucial to recognize that our model addresses only one aspect of pneumonia treatment. Backlogs in chest X-ray orders or execution can limit its benefits. Healthcare providers should assess the entire diagnostic process for potential bottlenecks.
+
+The dataset labels pneumonia as bacterial or viral, prompting consideration of distinct treatments. Exploring a model to differentiate between these types could be a future step, potentially aiding in avoiding unnecessary antibiotics based on nuanced distinctions not visible to the naked eye.
 
 ## Repository Structure
 ```
