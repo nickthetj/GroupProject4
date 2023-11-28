@@ -27,7 +27,7 @@ As the x-rays were going to be further examined by a medical professional, our m
 
 ## Data Understanding
 
-<img width="825" alt="Screenshot 2023-11-28 at 4 21 54 PM" src="https://github.com/nickthetj/PneumoniaDiagnosis/assets/37059423/2b27e4df-7fc1-4b59-80c4-72d63068da5b">
+<img width="500" alt="Screenshot 2023-11-28 at 4 21 54 PM" src="https://github.com/nickthetj/PneumoniaDiagnosis/assets/37059423/2b27e4df-7fc1-4b59-80c4-72d63068da5b">
 
 Our data set is a collection of x-rays of children's lungs found at https://data.mendeley.com/datasets/rscbjbr9sj/3, collected through collaboration of the University of California, San Diego and Guangzhou Women and Children's Medical Center. Several different data sets are available at that link. We focused exclusively on the chest x-rays. As chest x-rays are the primary method of diagnosing pneumonia, these images are obviously relevant to our question. The target variable for our analysis is "pneumonia" vs. "normal." The images are already sorted into training, testing, and validation sets. The validation set was insufficiently sized for our purposes so we ignored it, instead creating a validation set within the training set.
 
