@@ -6,6 +6,7 @@
   <img width="800" height="500" src="images/CDC_unsplash.jpg">
 </p>
 Photo by <a href="https://unsplash.com/@cdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CDC</a> on <a href="https://unsplash.com/photos/NMZdj2Zu36M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+![cdc-NMZdj2Zu36M-unsplash](https://github.com/user-attachments/assets/32ddc504-ff35-46cf-b1a2-af6cbe16b630)
 
 GitHub repository: https://github.com/nickthetj/GroupProject4
 Presentation: 
